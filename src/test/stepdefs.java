@@ -2,6 +2,9 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class stepdefs {
     public TicTacToe t3;
@@ -22,12 +25,12 @@ public class stepdefs {
         Thread.sleep(1000);
         t3.pushButton(2, 2);
         Thread.sleep(1000);
-        t3.pushButton(2,0);
+        t3.pushButton(2, 0);
     }
 
     @Then("^A win should be added to the count for x$")
     public void A_win_should_be_added_to_the_count_for_x() throws Throwable {
         String observed = (t3.getMoveTxt());
-
+        assertEquals(observed.compareToIgnoreCase("X wins!"),0);
     }
 }
