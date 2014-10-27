@@ -27,6 +27,7 @@ public class stepdefs {
 
     @Then("^A win should be added to the count for x$")
     public void A_win_should_be_added_to_the_count_for_x() throws Throwable {
-        (t3.getMoveTxt());
+        String observed = (t3.getMoveTxt());
+
     }
 }
