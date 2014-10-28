@@ -390,7 +390,7 @@ public class TicTacToe extends JFrame
 		//new TicTacToe(n);
 	}
 
-    //method added for testing
+    //methods added for testing are below:
     public boolean pushButton(int x, int y){
         theButtons[x][y].doClick();
         return true;

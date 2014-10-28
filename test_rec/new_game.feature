@@ -20,7 +20,7 @@ Feature:New Game Button
     Given The board should have no moves made
     Then 'New Game' button should be inactive
 
-  Scenario:When a player has moved, new move button should be active.
+  Scenario:When a player has moved, new game button should be active.
     Given The game is running
     When One move is made
     Then 'New Game' button should be active
