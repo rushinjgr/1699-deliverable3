@@ -230,9 +230,9 @@ public class TicTacToe extends JFrame
 					}
 				}
 				
-				System.out.println("Row: " + winr);
-				System.out.println("Col: " + winc);
-				System.out.println("Diag: " + wind);
+				//System.out.println("Row: " + winr);
+				//System.out.println("Col: " + winc);
+				//System.out.println("Diag: " + wind);
 				
 				if(winr || winc || wind)
 				{
@@ -398,5 +398,17 @@ public class TicTacToe extends JFrame
 
     public String getMoveTxt(){
         return(move.getText());
+    }
+
+    public String[] getScore() {
+        return new String[] {S1.getText(), S2.getText()};
+    }
+
+    public void newGame(){
+        newg.doClick();
+    }
+
+    public TPlayer[] getPlayers(){
+        return new TPlayer[] {pX,pO};
     }
 }

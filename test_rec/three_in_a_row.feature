@@ -1,13 +1,13 @@
-Feature:Three in a row of any letter wins the game; nothing else results in a win.
+Feature:Three in a row of any letter wins the game; nothing else results in a win being displayed.
 
 Scenario:Three X's in a row wins the game
   Given The game is running
-  When Three X's get put in a row
+  When Player One wins
   Then X wins should be displayed
 
 Scenario:Three O's in a row wins the game
   Given The game is running
-  When Three O's get put in a row
+  When Player Two Wins
   Then O wins should be displayed
 
 Scenario:No letters in a row results in a stalemate
