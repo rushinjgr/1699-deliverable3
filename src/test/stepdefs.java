@@ -108,7 +108,6 @@ public class stepdefs {
     public void One_win_and_one_loss_and_one_stalemates_should_be_displayed_for_both_players() throws Throwable {
         String check[] = t3.getScore();
         assertTrue(check.length==2);
-        System.out.println(check[0]);
         assertEquals(check[0].compareToIgnoreCase("Wins: 1 \n" + "Losses: 1 \n" + "Stalemates: 1"), 0);
         assertEquals(check[1].compareToIgnoreCase("Wins: 1 \n" + "Losses: 1 \n" + "Stalemates: 1"), 0);
     }
@@ -127,40 +126,20 @@ public class stepdefs {
     public void The_board_should_have_one_move_made() throws Throwable {
         assertEquals(t3.getMovesMade(),1);
     }
-    
-    @When("^When no moves have been made$")
-    public void When_no_moves_have_been_made() throws Throwable {
-        throw new NoSuchMethodException();
-    }
-    
+
     @Then("^Undo button should be inactive$")
     public void Undo_button_should_be_inactive() throws Throwable {
         assertFalse(t3.getUndoButtonActive());
     }
-    
-    @When("^When a move has been made$")
-    public void When_a_move_has_been_made() throws Throwable {
-        throw new NoSuchMethodException();
-    }
-    
+
     @Then("^Undo button should be active$")
     public void Undo_button_should_be_active() throws Throwable {
         assertTrue(t3.getUndoButtonActive());
     }
 
-    @When("^User has made a move$")
-    public void User_has_made_a_move() throws Throwable {
-        throw new NoSuchMethodException();
-    }
-
-    @And("^User has pressed 'Undo'$")
+    @When("^User has pressed 'Undo'$")
     public void User_has_pressed_Undo() throws Throwable {
-        throw new NoSuchMethodException();
-    }
-
-    @Then("^Previous move should not be seen on the board$")
-    public void Previous_move_should_not_be_seen_on_the_board() throws Throwable {
-        throw new NoSuchMethodException();
+        t3.pushUndo();
     }
 
     @When("^It is team X's turn$")
@@ -179,7 +158,6 @@ public class stepdefs {
     
     @Then("^Display 'X goes next'$")
     public void Display_X_goes_next() throws Throwable {
-        System.out.println(t3.getMoveTxt());
         assertEquals(t3.getMoveTxt().compareToIgnoreCase("X goes next"),0);
     }
 
@@ -201,27 +179,22 @@ public class stepdefs {
     public void Display_O_goes_next() throws Throwable {
         assertEquals(t3.getMoveTxt().compareToIgnoreCase("O goes next"),0);
     }
-    
-    @When("^Neither player has made a move$")
-    public void Neither_player_has_made_a_move() throws Throwable {
-        throw new NoSuchMethodException();
-    }
-
+  
     @Then("^'New Game' button should be active$")
     public void New_Game_button_should_be_active() throws Throwable {
         assertTrue(t3.getNewGameButtonActive());
     }
-    
-    //@When("^A move has been made$")
+
     
     @Then("^'New Game' button should be inactive$")
     public void New_Game_button_should_be_inactive() throws Throwable {
         assertFalse(t3.getNewGameButtonActive());
     }
-    
-    //@When("^'New Game' is clicked$")
-    
-   // @Then("^The board is cleared$")
-    
-    //@And("^It is the turn of whichever team went first$")
+
+    @Then("^The previous move should not be seen on the board$")
+    public void The_previous_move_should_not_be_seen_on_the_board() throws Throwable {
+        assertEquals(t3.getButtonText(0,0).compareToIgnoreCase(" "),0);
+    }
+
+
 }

@@ -431,4 +431,12 @@ public class TicTacToe extends JFrame
     public boolean getPlayerX(){
         return playerX;
     }
+
+    public void pushUndo(){
+        undo.doClick();
+    }
+
+    public String getButtonText(int x, int y){
+        return(theButtons[x][y].getText());
+    }
 }

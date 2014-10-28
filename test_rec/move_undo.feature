@@ -17,9 +17,7 @@ Scenario:3
 Given The game is running
 And One move is made
 When User has pressed 'Undo'
-Then the previous move should not be seen on the board
+Then The previous move should not be seen on the board
+And The board should have no moves made
 
-Scenario:4
-Given The game is running
-When n number of moves have been made
-Then the undo button should be active for n Undo’s
+
