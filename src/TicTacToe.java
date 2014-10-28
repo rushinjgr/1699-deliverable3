@@ -411,4 +411,8 @@ public class TicTacToe extends JFrame
     public TPlayer[] getPlayers(){
         return new TPlayer[] {pX,pO};
     }
+
+    public int getMovesMade() {
+        return moves;
+    }
 }

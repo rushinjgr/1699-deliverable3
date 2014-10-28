@@ -88,19 +88,42 @@ public class stepdefs {
     @Then("^One win and one loss and no stalemates should be displayed for both players$")
     public void One_win_and_one_loss_should_be_displayed_for_both_players() throws Throwable {
         String check[] = t3.getScore();
-        assertTrue(check.length==2);
-        System.out.println(check[0]);
+        assertTrue(check.length == 2);
         assertEquals(check[0].compareToIgnoreCase("Wins: 1 \n" + "Losses: 1 \n" + "Stalemates: 0"), 0);
         assertEquals(check[1].compareToIgnoreCase("Wins: 1 \n" + "Losses: 1 \n" + "Stalemates: 0"), 0);
     }
 
     @And("^The players wait$")
     public void The_players_wait() throws Throwable {
-        Thread.sleep(3000);
+        Thread.sleep(1000);
     }
 
     @And("^The players start a new game$")
     public void The_players_start_a_new_game() throws Throwable {
         t3.newGame();
+    }
+
+    @Then("^One win and one loss and one stalemates should be displayed for both players$")
+    public void One_win_and_one_loss_and_one_stalemates_should_be_displayed_for_both_players() throws Throwable {
+        String check[] = t3.getScore();
+        assertTrue(check.length==2);
+        System.out.println(check[0]);
+        assertEquals(check[0].compareToIgnoreCase("Wins: 1 \n" + "Losses: 1 \n" + "Stalemates: 1"), 0);
+        assertEquals(check[1].compareToIgnoreCase("Wins: 1 \n" + "Losses: 1 \n" + "Stalemates: 1"), 0);
+    }
+
+    @When("^One move is made$")
+    public void One_move_is_made() throws Throwable {
+        t3.pushButton(0,0);
+    }
+
+    @Then("^The board should have no moves made$")
+    public void The_board_should_have_no_moves_made() throws Throwable {
+        assertEquals(t3.getMovesMade(),0);
+    }
+
+    @Then("^The board should have one move made$")
+    public void The_board_should_have_one_move_made() throws Throwable {
+        assertEquals(t3.getMovesMade(),1);
     }
 }
