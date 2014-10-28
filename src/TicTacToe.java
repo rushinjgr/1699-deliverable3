@@ -415,4 +415,20 @@ public class TicTacToe extends JFrame
     public int getMovesMade() {
         return moves;
     }
+
+    public boolean getNewGameButtonActive() {
+        return(newg.isEnabled());
+    }
+
+    public boolean getUndoButtonActive() {
+        return(undo.isEnabled());
+    }
+
+    public String getMoveText(){
+        return(move.getText());
+    }
+
+    public boolean getPlayerX(){
+        return playerX;
+    }
 }

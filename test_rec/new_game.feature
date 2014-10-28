@@ -1,4 +1,5 @@
-Feature:As a Tic-Tac-Toe player
+Feature:New Game Button
+  As a Tic-Tac-Toe player
   I want to be able to start a new game at any point
   So that I can restart a bad game
 
@@ -16,7 +17,7 @@ Feature:As a Tic-Tac-Toe player
 
   Scenario:When no player has moved, new move button should be inactive.
     Given The game is running
-    When Neither player has made a move
+    Given The board should have no moves made
     Then 'New Game' button should be inactive
 
   Scenario:When a player has moved, new move button should be active.

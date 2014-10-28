@@ -1,4 +1,7 @@
-Feature:The game keeps the score of both players for the session in terms of wins, losses, and stalemates. The game displays this for the users.
+Feature:Score Keeping
+  As a Tic-Tac-Toe player
+  I want to be able to see the score of the games played in this session
+  So that I can track performance versus my opponent
 
   Scenario: X and O each win a game (and thus each lose a game).
     Given The game is running

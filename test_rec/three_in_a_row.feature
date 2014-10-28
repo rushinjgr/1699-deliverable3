@@ -1,4 +1,7 @@
-Feature:Three in a row of any letter wins the game; nothing else results in a win being displayed.
+Feature:Three in a row
+  As a Tic-Tac-Toe player
+  I want to win when I put three of my letters in a row and no other time
+  So that the game will be fun
 
 Scenario:Three X's in a row wins the game
   Given The game is running
