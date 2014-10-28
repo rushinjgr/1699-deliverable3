@@ -3,17 +3,17 @@ As a Tic-Tac-Toe player
 I want to be able to undo a move
 So that I can make the correct move to win the game
 
-Scenario:1
+Scenario:Undo no moves
 Given The game is running
 Given The board should have no moves made
 Then Undo button should be inactive
 
-Scenario:2
+Scenario:One move made
 Given The game is running
 When One move is made
 Then Undo button should be active
 
-Scenario:3
+Scenario:Undo one move
 Given The game is running
 And One move is made
 When User has pressed 'Undo'

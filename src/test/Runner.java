@@ -6,6 +6,6 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(format = "pretty")
+@CucumberOptions(format = "html:output")
 public class Runner {
 }

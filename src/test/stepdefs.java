@@ -179,7 +179,7 @@ public class stepdefs {
     public void Display_O_goes_next() throws Throwable {
         assertEquals(t3.getMoveTxt().compareToIgnoreCase("O goes next"),0);
     }
-  
+
     @Then("^'New Game' button should be active$")
     public void New_Game_button_should_be_active() throws Throwable {
         assertTrue(t3.getNewGameButtonActive());
