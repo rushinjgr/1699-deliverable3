@@ -4,26 +4,29 @@ Tic Tac Toe
 Neha Abraham
 Justin Rushin III
 
-Changes thus far to original program:
+Libraries Used
+
+junit4-4.11.jar
+
+cucumber-core-1.1.8.jar
+
+cucumber-html-0.2.3.jar
+
+cucumber-java-1.1.8.jar
+
+cucumber-junit-1.1.8.jar
+
+cucumber-jvm-deps-1.0.3.jar
+
+gherkin-2.12.2.jar
 
 
--Removed name setting functionality
+Repo Overview
 
--Added public button push method for testing
+src/        - The code being tested.
 
--Added getter method for last move
+src/test     - The stepdefinitions and JUnit runner used to run the Cucumber tests
 
-Project Structure
+output/        - The results of the Cucumber tests. Viewable in browser via “index.html”
 
-
-src/TicTacToe.java
-
-src/TPlayer.java
-
-src/test/Runner.java    This is the test runner. Run this file as a junit test and it will run the cucumber tests.
-
-src/test/stepdefs.java  Step definitions go here. We can consider making another file for them if we get too many but it would be simpler to have them in one file.
-
-test_rec/       This is where feature files will go.
-
-test_rec/three_in_a_row.feature     Only when three letters get placed in a row does the game display a winner.
+test_rec/    - The feature files used by cucumber.
