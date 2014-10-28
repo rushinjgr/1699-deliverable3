@@ -128,45 +128,80 @@ public class stepdefs {
     }
     
     @When("^When no moves have been made$")
+    public void When_no_moves_have_been_made() throws Throwable {
+
+    }
     
     @Then("^Undo button should be inactive$")
-    
+    public void Undo_button_should_be_inactive() throws Throwable {
+
+    }
     
     @When("^When a move has been made$")
+    public void When_a_move_has_been_made() throws Throwable {
+
+    }
     
     @Then("^Undo button should be active$")
-    
-    
+    public void Undo_button_should_be_active() throws Throwable {
+
+    }
+
     @When("^User has made a move$")
-    
+    public void User_has_made_a_move() throws Throwable {
+
+    }
+
     @And("^User has pressed 'Undo'$")
-    
+    public void User_has_pressed_Undo() throws Throwable {
+
+    }
+
     @Then("^Previous move should not be seen on the board$")
-    
-    
+    public void Previous_move_should_not_be_seen_on_the_board() throws Throwable {
+
+    }
+
     @When("^It is team X's turn$")
+    public void It_is_team_Xs_turn() throws Throwable {
+
+    }
     
     @Then("^Display 'X goes next'$")
-    
-    
+    public void Display_X_goes_next() throws Throwable {
+
+    }
+
     @When("^It is team O's turn$")
+    public void It_is_team_Os_turn() throws Throwable {
+
+    }
     
     @Then("^Display 'O goes next'$")
-    
+    public void Display_O_goes_next() throws Throwable {
+
+    }
     
     @When("^Neither player has made a move$")
-    
+    public void Neither_player_has_made_a_move() throws Throwable {
+
+    }
+
     @Then("^'New Game' button should be active$")
+    public void New_Game_button_should_be_active() throws Throwable {
+
+    }
     
+    //@When("^A move has been made$")
     
-    @When("^A move has been made$")
+    @Then("^'New Game' button should be inactive$")
+    public void New_Game_button_should_be_inactive() throws Throwable {
+
+    }
     
-    @Then("^'New Game' button should be active$")
+    //@When("^'New Game' is clicked$")
     
+   // @Then("^The board is cleared$")
     
-    @When("^'New Game' is clicked$")
-    
-    @Then("^The board is cleared$")
-    
-    @And("^It is the turn of whichever team went first$")
+    //@And("^It is the turn of whichever team went first$")
 }
