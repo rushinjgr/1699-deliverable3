@@ -30,3 +30,5 @@ src/test     - The stepdefinitions and JUnit runner used to run the Cucumber tes
 output/        - The results of the Cucumber tests. Viewable in browser via “index.html”
 
 test_rec/    - The feature files used by cucumber.
+
+lib/        - Some library files used.
