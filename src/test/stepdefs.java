@@ -126,4 +126,47 @@ public class stepdefs {
     public void The_board_should_have_one_move_made() throws Throwable {
         assertEquals(t3.getMovesMade(),1);
     }
+    
+    @When("^When no moves have been made$")
+    
+    @Then("^Undo button should be inactive$")
+    
+    
+    @When("^When a move has been made$")
+    
+    @Then("^Undo button should be active$")
+    
+    
+    @When("^User has made a move$")
+    
+    @And("^User has pressed 'Undo'$")
+    
+    @Then("^Previous move should not be seen on the board$")
+    
+    
+    @When("^It is team X's turn$")
+    
+    @Then("^Display 'X goes next'$")
+    
+    
+    @When("^It is team O's turn$")
+    
+    @Then("^Display 'O goes next'$")
+    
+    
+    @When("^Neither player has made a move$")
+    
+    @Then("^'New Game' button should be active$")
+    
+    
+    @When("^A move has been made$")
+    
+    @Then("^'New Game' button should be active$")
+    
+    
+    @When("^'New Game' is clicked$")
+    
+    @Then("^The board is cleared$")
+    
+    @And("^It is the turn of whichever team went first$")
 }
