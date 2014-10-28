@@ -15,7 +15,7 @@ Feature:New Game Button
     And The players start a new game
     Then The board should have no moves made
 
-  Scenario:When no player has moved, new move button should be inactive.
+  Scenario:When no player has moved, new game button should be inactive.
     Given The game is running
     Given The board should have no moves made
     Then 'New Game' button should be inactive

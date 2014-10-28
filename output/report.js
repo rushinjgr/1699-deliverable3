@@ -33,21 +33,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 637794466,
+  "duration": 560481780,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_board_should_have_no_moves_made()"
 });
 formatter.result({
-  "duration": 7565983,
+  "duration": 14121039,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Undo_button_should_be_inactive()"
 });
 formatter.result({
-  "duration": 77880,
+  "duration": 78838,
   "status": "passed"
 });
 formatter.scenario({
@@ -77,21 +77,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 273617396,
+  "duration": 276762054,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.One_move_is_made()"
 });
 formatter.result({
-  "duration": 123521858,
+  "duration": 129346560,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Undo_button_should_be_active()"
 });
 formatter.result({
-  "duration": 85882,
+  "duration": 43126,
   "status": "passed"
 });
 formatter.scenario({
@@ -131,35 +131,35 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 103726321,
+  "duration": 97363870,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.One_move_is_made()"
 });
 formatter.result({
-  "duration": 126682577,
+  "duration": 142855231,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.User_has_pressed_Undo()"
 });
 formatter.result({
-  "duration": 70720569,
+  "duration": 69970180,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_previous_move_should_not_be_seen_on_the_board()"
 });
 formatter.result({
-  "duration": 138741,
+  "duration": 157447,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_board_should_have_no_moves_made()"
 });
 formatter.result({
-  "duration": 35705,
+  "duration": 41840,
   "status": "passed"
 });
 formatter.uri("new_game.feature");
@@ -202,28 +202,28 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 86877528,
+  "duration": 93793553,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Player_One_wins()"
 });
 formatter.result({
-  "duration": 845984930,
+  "duration": 839750298,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_start_a_new_game()"
 });
 formatter.result({
-  "duration": 71897149,
+  "duration": 71528829,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_board_should_have_no_moves_made()"
 });
 formatter.result({
-  "duration": 270464,
+  "duration": 35344,
   "status": "passed"
 });
 formatter.scenario({
@@ -258,35 +258,35 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 88557081,
+  "duration": 95060818,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.One_move_is_made()"
 });
 formatter.result({
-  "duration": 129312746,
+  "duration": 130931593,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_start_a_new_game()"
 });
 formatter.result({
-  "duration": 73411032,
+  "duration": 69388947,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_board_should_have_no_moves_made()"
 });
 formatter.result({
-  "duration": 75988,
+  "duration": 32206,
   "status": "passed"
 });
 formatter.scenario({
   "line": 18,
-  "name": "When no player has moved, new move button should be inactive.",
+  "name": "When no player has moved, new game button should be inactive.",
   "description": "",
-  "id": "new-game-button;when-no-player-has-moved,-new-move-button-should-be-inactive.",
+  "id": "new-game-button;when-no-player-has-moved,-new-game-button-should-be-inactive.",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -309,21 +309,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 122235473,
+  "duration": 127366261,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_board_should_have_no_moves_made()"
 });
 formatter.result({
-  "duration": 38238,
+  "duration": 128838,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.New_Game_button_should_be_inactive()"
 });
 formatter.result({
-  "duration": 1222011,
+  "duration": 683021,
   "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertFalse(Assert.java:64)\n\tat org.junit.Assert.assertFalse(Assert.java:74)\n\tat stepdefs.New_Game_button_should_be_inactive(stepdefs.java:191)\n\tat ✽.Then \u0027New Game\u0027 button should be inactive(new_game.feature:21)\n",
   "status": "failed"
 });
@@ -354,21 +354,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 199624715,
+  "duration": 173032410,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.One_move_is_made()"
 });
 formatter.result({
-  "duration": 133853129,
+  "duration": 157456021,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.New_Game_button_should_be_active()"
 });
 formatter.result({
-  "duration": 44989,
+  "duration": 43774,
   "status": "passed"
 });
 formatter.uri("score_keeping.feature");
@@ -427,42 +427,42 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 89576526,
+  "duration": 87700509,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Player_One_wins()"
 });
 formatter.result({
-  "duration": 820539194,
+  "duration": 801395818,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_wait()"
 });
 formatter.result({
-  "duration": 1000258428,
+  "duration": 1000218129,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_start_a_new_game()"
 });
 formatter.result({
-  "duration": 72112027,
+  "duration": 71441438,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Player_One_wins()"
 });
 formatter.result({
-  "duration": 749889853,
+  "duration": 754464112,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.One_win_and_one_loss_should_be_displayed_for_both_players()"
 });
 formatter.result({
-  "duration": 237334,
+  "duration": 238059,
   "status": "passed"
 });
 formatter.scenario({
@@ -522,63 +522,63 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 86985594,
+  "duration": 72512119,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Player_One_wins()"
 });
 formatter.result({
-  "duration": 815088354,
+  "duration": 813655757,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_wait()"
 });
 formatter.result({
-  "duration": 1000221941,
+  "duration": 1000216689,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_start_a_new_game()"
 });
 formatter.result({
-  "duration": 72457376,
+  "duration": 70418572,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_board_is_filled_with_no_letter_team_in_a_row()"
 });
 formatter.result({
-  "duration": 1435193450,
+  "duration": 1433547068,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_wait()"
 });
 formatter.result({
-  "duration": 1000183923,
+  "duration": 1000166514,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_players_start_a_new_game()"
 });
 formatter.result({
-  "duration": 73247121,
+  "duration": 71937773,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Player_Two_Wins()"
 });
 formatter.result({
-  "duration": 921677957,
+  "duration": 920714356,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.One_win_and_one_loss_and_one_stalemates_should_be_displayed_for_both_players()"
 });
 formatter.result({
-  "duration": 529823,
+  "duration": 1247072,
   "error_message": "java.lang.AssertionError: expected:\u003c1\u003e but was:\u003c0\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat stepdefs.One_win_and_one_loss_and_one_stalemates_should_be_displayed_for_both_players(stepdefs.java:111)\n\tat ✽.Then One win and one loss and one stalemates should be displayed for both players(score_keeping.feature:24)\n",
   "status": "failed"
 });
@@ -617,21 +617,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 74256727,
+  "duration": 78822519,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.It_is_team_Xs_turn()"
 });
 formatter.result({
-  "duration": 179667220,
+  "duration": 180190958,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Display_X_goes_next()"
 });
 formatter.result({
-  "duration": 71537,
+  "duration": 49344,
   "status": "passed"
 });
 formatter.scenario({
@@ -661,21 +661,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 127730130,
+  "duration": 82811517,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.It_is_team_Os_turn()"
 });
 formatter.result({
-  "duration": 301229531,
+  "duration": 264733318,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Display_O_goes_next()"
 });
 formatter.result({
-  "duration": 154500,
+  "duration": 138890,
   "status": "passed"
 });
 formatter.uri("three_in_a_row.feature");
@@ -713,21 +713,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 95085094,
+  "duration": 87048895,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Player_One_wins()"
 });
 formatter.result({
-  "duration": 807516339,
+  "duration": 868651660,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.A_win_should_be_added_to_the_count_for_x()"
 });
 formatter.result({
-  "duration": 112585,
+  "duration": 103840,
   "status": "passed"
 });
 formatter.scenario({
@@ -757,21 +757,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 71678763,
+  "duration": 81559134,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Player_Two_Wins()"
 });
 formatter.result({
-  "duration": 1027403938,
+  "duration": 955838615,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.O_wins_should_be_displayed()"
 });
 formatter.result({
-  "duration": 143250,
+  "duration": 55958,
   "status": "passed"
 });
 formatter.scenario({
@@ -801,21 +801,21 @@ formatter.match({
   "location": "stepdefs.gameSetup()"
 });
 formatter.result({
-  "duration": 76403023,
+  "duration": 88960270,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.The_board_is_filled_with_no_letter_team_in_a_row()"
 });
 formatter.result({
-  "duration": 1458319991,
+  "duration": 1478022865,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.Stalemate_should_be_displayed()"
 });
 formatter.result({
-  "duration": 162804,
+  "duration": 112970,
   "status": "passed"
 });
 });
